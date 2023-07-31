@@ -1,0 +1,47 @@
+@import './icons.css';
+@import './fonts.css';
+@import './body.css';
+@import './link.css';
+@import './button-icon.css';
+@import './logo.css';
+@import './list.css';
+@import './menu.css';
+@import './sidebar.css';
+@import './ellipsis.css';
+@import './player.css';
+@import './page.css';
+@import './layout.css';
+@import './scrollbar.css';
+
+:root {
+    font-size: 14px;
+    --primary: #00b050;
+    --white : #ffffff;
+    --gray10: #B3B3B3  ;
+    --gray20:  #73737373;
+    --gray30:  #282828;
+    --gray40:  #181818;
+    --gray50:  #121212;
+    --gray60: #000000 ;
+    --baseFontFamily: Avenir,helvetica,sans-serif;
+    --headLine1: bold 2rem/normal var(--baseFontFamily) ;
+    --headLine2: bold 1.5rem/1.75rem var(--baseFontFamily) ;
+    --baseFont: normal .875rem/1.375rem var(--baseFontFamily) ;
+    --baseFontBold: bold .875rem/1.375rem var(--baseFontFamily) ;
+    --button: bold .875rem/1rem var(--baseFontFamily) ;
+    --small: normal .875rem/normal var(--baseFontFamily) ;
+
+}
+
+@media screen and (min-width:768px) {
+    :root{
+        font-size: 16px;
+    }
+    
+}
+@media screen and (min-width:1367px) {
+    :root{
+        font-size: 18px;
+    }
+    
+}
